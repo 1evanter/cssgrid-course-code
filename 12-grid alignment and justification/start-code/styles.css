@@ -4,4 +4,18 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 150px);
+  height: 600px;
+  border: 10px solid;
+  /* justify-items: center;
+  align-items: center; */
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
+}
+
+.item-1 {
+  justify-self: stretch;
+  align-self: stretch;
 }
